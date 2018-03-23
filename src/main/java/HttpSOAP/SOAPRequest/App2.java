@@ -51,6 +51,7 @@ public class App2 {
 			(new Thread(new ThreadService(a, b,c))).start();
 			break;
 		default:
+			(new Thread(new ThreadService(a, b,c))).start();
 			break;
 		}
 		
