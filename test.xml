@@ -1,0 +1,53 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webapps.online.ericsson.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:ngwRequest>
+         <web:request>
+            <web:requestID>0</web:requestID>
+            <web:origin>WS</web:origin>
+            <web:operation>ITEL414BUNDLE1U</web:operation>
+            <web:msisdn>573123634058</web:msisdn>
+            <web:item>
+               <web:key>codigoPaquete</web:key>
+               <web:value>1010</web:value>
+            </web:item>
+            <web:item>
+               <web:key>nombrePaquete</web:key>
+               <web:value>Paquete ITEL414BUNDLE1U</web:value>
+            </web:item>
+		  <web:item>
+               <web:key>flagCobro</web:key>
+               <web:value>yes</web:value>
+            </web:item>
+            <web:item>
+               <web:key>valor</web:key>
+               <web:value>990</web:value>
+            </web:item>
+            <web:item>
+               <web:key>canal</web:key>
+               <web:value>canal 10</web:value>
+            </web:item>
+            <web:item>
+               <web:key>tipoPaquete</web:key>
+               <web:value>pre</web:value>
+            </web:item>	
+            <web:item>
+               <web:key>fechaEvento</web:key>
+               <web:value>20170718</web:value>
+            </web:item>	
+            <web:item>
+               <web:key>MIN</web:key>
+               <web:value>234251436</web:value>
+            </web:item>	
+            <web:item>
+               <web:key>estadoTransaccion</web:key>
+               <web:value>activa</web:value>
+            </web:item>	
+		  <web:item>
+               <web:key>elegidoMIN</web:key>
+               <web:value>2342342341</web:value>
+            </web:item>	
+         </web:request>
+      </web:ngwRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
